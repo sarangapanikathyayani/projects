@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+ /*display:flex;
+
+ justify-content: center;
+ align-items: center;*/
+}
+div{
+    margin:5px;
+    padding:6px;
+ 
+}
+.form
+{
+    border-color:red;
+    border-radius: 10px;
+
+}
+/*actually i had an idea of giving all these in one tag how?*/
+input[type=text]:focus,input[type=password]:focus
+{
+ width:20%;
+ /*transition: width 0.4s ease-in-out;*/
+}
+
+
+img{
+    height:50px;
+    width:50px;
+    
+}
+h1{
+    margin-top: 250px;
+    
+}
+
+button:hover{
+cursor:pointer;
+    transform:scale(0.8s);
+    transition: .80s;
+}
+.tab
+{
+   padding-left:80px;
+   padding-right:80px;
+    background-color: blue;
+    color: white;
+}
